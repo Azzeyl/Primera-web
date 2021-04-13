@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #a5a2a9;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%23eae4f4' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+/*se ase el heder del logo y del menu*/
+
+header, .main, footer {
+ /*siempre poner babackground: #fff pero se quita por el inicio */
+    width: 97%;
+    margin: 30px auto;
+
+}
+
+/*menu de navegacion*/ 
+
+header nav {
+    background:#17202A ; /*color del menu cuadro*/ /*se elimina elbackground de arriva*/ 
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+/*poner las cosas del inicio de lado*/
+
+header nav ul li {
+    float: left;
+}
+
+/*modificar los enlaces del inicio*/
+
+header nav ul li a {
+    padding: 20px 50px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+/*sombrear los botones del inicio*/
+
+header nav ul li a:hover {
+    background: #75ACEC;
+}
+
+/*Sigue el contenido como los articulos*/
+
+.main .articles {
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+}
+
+/*separar cada articulo */
+.main .articles article {
+    padding: 20px;
+    background: #fff; /*color de los articulos*/
+    margin-bottom: 20px;
+}
+
+/*se arregla la columna de el lado el sidebar*/
+
+aside {
+    width: 30%;
+    /*color del cuadro del lado*/
+    background: #EAE5E4;
+    float: left; /*esto es para ponerlo a la derecha*/
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*se pone el foder el autor y eso*/
+footer {
+    background: #000;
+    color: #fff;
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.espacio {
+    word-spacing: 9px;
+}
+
+form {
+    height: 10px;
+}
+
+.boton {
+    width: 35px;
+    height: 25px;
+    box-align: center;
+
+}
+
+.links  {
+    width: 30%;
+
+}
+/*con esto quito el subyarrado o le doy un color*/
+.linksani ul li a {
+    text-decoration: underline white;
+}
+
+.linksbottom  a {
+    text-decoration: none;
+
+}
+/*color de los titulos principales de los links*/
+.listadiseño {
+    color: #050737;
+}
+/*tamaño de las letras del indice*/
+.letras {
+    font-size: 18.5px;
+    color: #050737;
+    
+}
+/*color de los circulos de los links*/
+.colorlink {
+
+    color: #220C07;
+}
+ /*tamaño de letras de link*/
+.colorlink li a {
+    
+    font-size: 16.5px;
+}
+
+
+/*color del link de los animes*/
+
+.color_liks_principales {
+    color: black;
+}
+
+
+
+
+.clearfix{
+    clear: both;
+}
+
+.img_bloque{
+    background: palegreen;
+    height: 25px;
+    width: 45px;
+}
